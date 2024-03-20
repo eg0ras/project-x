@@ -1,0 +1,163 @@
+/* ==========GUIDES=========
+============================ */
+
+.guides {
+  max-width: 100%;
+  height: 100vh;
+  background-color: blanchedalmond;
+}
+
+.guides h2{
+  text-align: center;
+  padding-bottom: .5rem;
+}
+
+.guides-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.guides-list span {
+  display: flex;
+  justify-content: center;
+}
+
+/* ==========INDIVIDUAL=========
+============================ */
+
+.individual {
+  max-width: 100%;
+  height: 100vh;
+  background-color: rgb(191, 150, 230);
+}
+
+.individual h2{
+  text-align: center;
+  padding-bottom: .5rem;
+}
+
+.individual h3{
+  text-align: center;
+  padding-bottom: .35rem;
+}
+
+.individual-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.individual-list span {
+  display: flex;
+  justify-content: center;
+}
+
+/* ==========INSECURE=========
+============================ */
+
+.insecure {
+  max-width: 100%;
+  height: 100vh;
+  background-color: rgb(150, 230, 163);
+}
+
+.insecure h2{
+  text-align: center;
+  padding-bottom: .5rem;
+}
+
+.insecure h3{
+  text-align: center;
+  padding-bottom: .35rem;
+}
+
+.insecure-list {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.insecure-list span {
+  display: flex;
+  justify-content: center;
+}
+
+/* ==========CLOTHING=========
+============================ */
+
+.clothing {
+  max-width: 100%;
+  height: 100vh;
+  background-color: rgb(150, 178, 230);
+}
+
+.clothing h2{
+  text-align: center;
+  padding-bottom: .5rem;
+}
+
+.clothing h3{
+  text-align: center;
+  padding-bottom: .35rem;
+}
+
+.clothing-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.clothing-list span {
+  display: flex;
+  justify-content: center;
+}
+
+/* ==========NEWSLETTER=========
+============================ */
+
+.newsletter {
+  max-width: 100%;
+  height: 100vh;
+  background-color: rgb(230, 169, 150);
+}
+
+.newsletter h2{
+  text-align: center;
+  padding-bottom: .5rem;
+}
+
+.newsletter h3{
+  text-align: center;
+  padding-bottom: .35rem;
+}
+
+.newsletter-list {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.newsletter-list span {
+  display: flex;
+  justify-content: center;
+}
+
+.email-send {
+  display: flex;
+  justify-content: center;
+  padding-top: .5rem;
+}
+
+.footer {
+  background-color: blanchedalmond;
+}
